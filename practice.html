@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class-7 || HTML-5</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		nav{
+			background-color: #3498DB;
+			height: 80px;
+			text-align: center;
+		}
+		.nav_home{
+			font-size: 50px;
+			text-decoration: none;
+			padding-right: 30px;
+		}
+		.nav_home:hover{
+			color: #7D3C98;
+		}
+		.nav_home:active{
+			background-color: transparent;
+		}
+		.nav_practice{
+			font-size: 50px;
+			text-decoration: none;
+		}
+		.nav_practice:hover{
+			color: #7D3C98;
+		}
+		.nav_practice:active{
+			background-color: transparent;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<a class="nav_home" href="index.html">Home</a>
+		<a class="nav_practice" href="practice.html">practice</a>
+	</nav>
+	<h1 class="practice">Practice</h1>
+	<h1>1.HTML formatting elements</h1>
+	<b>this is bold text using &#60;b&#62; element</b><br>
+	<strong>important tag using &#60;strong&#62; element</strong><br>
+	<i>italic text using &#60;i&#62; element</i><br>
+	<em>emphasized text using &#60;em&#62; element</em><br>
+	<mark>marked text using &#60;mark&#62; element</mark><br>
+	<small>smaller text using &#60;small&#62; element</small><br>
+	<del>deleted text using &#60;del&#62; element</del><br>
+	<ins>inserted text using &#60;ins&#62; element</ins><br>
+	<sub>subscript text using &#60;sub&#62; element</sub><br>
+	<sup>superscript text using &#60;sup&#62; element</sup><br>
+
+
+
+	<h1>2.HTML Quotations</h1>
+	<p><strong>qoutations written by &#60;blockqoute&#62; element below</strong></p>
+	<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lorem vel ex scelerisque iaculis vel id turpis. Aenean in finibus nisi, eget scelerisque mauris. Morbi sit amet pretium quam. Nullam consectetur tristique ex, a ullamcorper nunc facilisis at. Etiam magna nisi, fermentum vitae nibh sit amet, volutpat consequat dui. Vestibulum in consequat nibh, quis dignissim neque. Morbi in erat vel ligula molestie pulvinar. In aliquet cursus risus non posuere. Nam sed nibh metus. Duis gravida aliquet laoreet. Sed volutpat leo justo, in viverra mi varius nec. Cras egestas est eu laoreet varius. Donec et tellus felis. Vivamus mollis vehicula vestibulum.</blockquote><br><br>
+
+	<p><strong>short quotations written by &#60;q&#62; element bellow</strong></p>
+	<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p><br>
+	<p><strong>abbreviations are written by &#60;abbr&#62; element</strong></p>
+	<p><abbr title="Hyper Text Markup Language">HTML</abbr></p>
+	<p><abbr title="Cascading Style Sheet">CSS</abbr></p>
+
+	<p><strong>address is wrtten by &#60;address&#62; element</strong></p>
+	<address>
+		Written by John Doe.<br>
+		Visit us at: <br>
+		example.com <br>
+		Box 564, Disneyland <br>
+		USA
+	</address>
+
+	<p><strong>for define title of a creative work use this &#60;cite&#62; element</strong></p>
+	<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+
+	<p><strong>HTML Bi-directional override written by &#60;bdo&#62; element</strong></p>
+	<p><bdo dir="rtl">This text will be written from right to left</bdo></p>
+
+
+	<h1>3.HTML colors</h1>
+	<h2>background color</h2>
+		<h2 style="background-color: Tomato;">Tomato</h2>
+		<h2 style="background-color: Orange;">Orange</h2>
+		<h2 style="background-color: DodgerBlue;">DodgerBlue</h2>
+		<h2 style="background-color: MediumSeaGreen;">MediumSeaGreen</h2>
+		<h2 style="background-color: Gray;">Gray</h2>
+		<h2 style="background-color: SlateBlue;">SlateBlue</h2>
+		<h2 style="background-color: Violet;">Violet</h2>
+		<h2 style="background-color: LightGray;">Light Gray</h2><br>
+
+	<h2>text color</h2>
+	<h3 style="color: tomato;">Hello world!</h3>
+	<p style="color: DodgerBlue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut enim vel nisl feugiat finibus finibus ut magna. Integer venenatis libero sapien, ut maximus tortor eleifend a. Integer non suscipit massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eu lorem rutrum lacus malesuada ullamcorper. Sed luctus, dui vel tincidunt faucibus, lectus urna ornare tortor, sit amet fringilla libero magna quis leo. Aenean vitae turpis sapien. Duis placerat nisl id est aliquam, in tempor eros hendrerit.</p>
+	<p style="color: MediumSeaGreen;">Sed luctus, dui vel tincidunt faucibus, lectus urna ornare tortor, sit amet fringilla libero magna quis leo. Aenean vitae turpis sapien. Duis placerat nisl id est aliquam, in tempor eros hendrerit.</p><br>
+
+	<h2>Border color</h2>
+	<h3 style="border: 2px solid tomato">Hello World!</h3>
+	<h3 style="border: 2px solid DodgerBlue">Hello World!</h3>
+	<h3 style="border: 2px solid Violet">Hello World!</h3><br>
+
+	<h2>RGB and RGBA colors</h2>
+	<div class="rgb"><p>rgb(255,135,111)</p></div>
+	<div class="rgba"><p>rgba(0,63,34,0.2)</p></div><br>
+
+	<h2>HSL and HSLA colors</h2>
+	<div class="hsl"><p>hsl(268,50%,50%)</p></div>
+	<div class="hsla"><p>hsla(271,100%,50%,0.4);</p></div><br>
+
+	<div class="link_colors">
+	<h1>4.HTML links</h1>
+	<h2>Link Colors</h2>
+	<p>You can change the default colors of links</p>
+	<a href="#" target="_blank">Click here!</a><br>
+	</div>
+
+	<div class="link_button">
+	<h2>link button</h2>
+	<p>a link styled as a button</p>
+	<a href="#" target="_blank">This is a link</a>
+	</div><br>
+	
+
+	<div class="link_bookmark">
+		<h2>Link bookmark</h2>
+		<p><a href="#c5">Jump to chapter 5</a></p><br>
+		<p><a href="#c8">Jump to chapter 8</a></p>
+		<h3>Chapert 1</h3>
+		<p>Lorem ipsum dolor sit amet</p>
+		<h3>Chapert 2</h3>
+		<p>Lorem ipsum dolor sit amet</p>
+		<h3>Chapert 3</h3>
+		<p>Lorem ipsum dolor sit amet</p>
+		<h3>Chapert 4</h3>
+		<p>Lorem ipsum dolor sit amet</p>
+		<h3 id="c5">Chapert 5</h3>
+		<p>Lorem ipsum dolor sit amet</p>
+		<h3>Chapert 6</h3>
+		<p>Lorem ipsum dolor sit amet</p>
+		<h3>Chapert 7</h3>
+		<p>Lorem ipsum dolor sit amet</p>
+		<h3 id="c8">Chapert 8</h3>
+		<p>Lorem ipsum dolor sit amet</p>
+		<h3>Chapert 9</h3>
+		<p>Lorem ipsum dolor sit amet</p>
+		<h3>Chapert 10</h3>
+		<p>Lorem ipsum dolor sit amet</p>
+		
+	</div><br>
+	<h1>5.HTML Images</h1>
+	<h3>Background image</h3>
+	<div class="bg_image">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+		 Aenean ut enim vel nisl feugiat finibus finibus ut magna. <br>
+		  Integer venenatis libero sapien, ut maximus tortor eleifend a.
+		  nteger non suscipit massa. <br>
+		  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br> Donec eu lorem rutrum lacus malesuada ullamcorper. Sed luctus, dui vel tincidunt faucibus, lectus urna ornare tortor, sit amet fringilla libero magna quis leo. <br> Aenean vitae turpis sapien. Duis placerat nisl id est aliquam, in tempor eros hendrerit. <br>
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+		 Aenean ut enim vel nisl feugiat finibus finibus ut magna. <br>
+		  Integer venenatis libero sapien, ut maximus tortor eleifend a.
+		  nteger non suscipit massa. <br>
+		  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br> Donec eu lorem rutrum lacus malesuada ullamcorper. Sed luctus, dui vel tincidunt faucibus, lectus urna ornare tortor, sit amet fringilla libero magna quis leo. <br> Aenean vitae turpis sapien. Duis placerat nisl id est aliquam, in tempor eros hendrerit. <br>
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+		 Aenean ut enim vel nisl feugiat finibus finibus ut magna. <br>
+		  Integer venenatis libero sapien, ut maximus tortor eleifend a.
+		  nteger non suscipit massa. <br>
+		  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br> Donec eu lorem rutrum lacus malesuada ullamcorper. Sed luctus, dui vel tincidunt faucibus, lectus urna ornare tortor, sit amet fringilla libero magna quis leo. <br> Aenean vitae turpis sapien. Duis placerat nisl id est aliquam, in tempor eros hendrerit. <br>
+		</p>
+	</div><br>
+	<h3>no repeat</h3>
+	<div class="no_repeat">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+		 Aenean ut enim vel nisl feugiat finibus finibus ut magna. <br>
+		  Integer venenatis libero sapien, ut maximus tortor eleifend a.
+		  nteger non suscipit massa. <br>
+		  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br> Donec eu lorem rutrum lacus malesuada ullamcorper. Sed luctus, dui vel tincidunt faucibus, lectus urna ornare tortor, sit amet fringilla libero magna quis leo. <br> Aenean vitae turpis sapien. Duis placerat nisl id est aliquam, in tempor eros hendrerit. <br>
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+		 Aenean ut enim vel nisl feugiat finibus finibus ut magna. <br>
+		  Integer venenatis libero sapien, ut maximus tortor eleifend a.
+		  nteger non suscipit massa. <br>
+		  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br> Donec eu lorem rutrum lacus malesuada ullamcorper. Sed luctus, dui vel tincidunt faucibus, lectus urna ornare tortor, sit amet fringilla libero magna quis leo. <br> Aenean vitae turpis sapien. Duis placerat nisl id est aliquam, in tempor eros hendrerit. <br>
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+		 Aenean ut enim vel nisl feugiat finibus finibus ut magna. <br>
+		  Integer venenatis libero sapien, ut maximus tortor eleifend a.
+		  nteger non suscipit massa. <br>
+		  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br> Donec eu lorem rutrum lacus malesuada ullamcorper. Sed luctus, dui vel tincidunt faucibus, lectus urna ornare tortor, sit amet fringilla libero magna quis leo. <br> Aenean vitae turpis sapien. Duis placerat nisl id est aliquam, in tempor eros hendrerit. <br>
+	</div><br>
+	<h3>Background Cover</h3>
+	<div class="bg_cover">
+		<h4 class="bg_cover_h">Background cover</h4>
+		<p class="bg_cover_p">set the background-size property to "cover" and the the background image will cover the entire element, int this case the BODY element.</p>
+		
+	</div><br><br>
+	<h3>picture eleement</h3>
+	<div class="picture">
+		<picture>
+			<source media="(min-width: 850px)" srcset="image/cheese-burger.jpg">
+			<source media="(min-width: 665px)" srcset="image/car-vehicle.jpg">
+			<img src="image/box-cheerful.jpg" style="width: auto;">
+		</picture>
+		<p>Resize the browser to see different versions of the picture loading at different viewpoint sizes.The browser looks fir the first source element where the media query matches the user's current viewpoint width, and fetches the image specified in the srcset attribute</p>
+
+		<p>The img element is requried as the last child tag of the picture declaration block. The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.</p>
+
+		<p><strong>Note:</strong>The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier</p>
+	</div><br>
+	<h1>6.HTML Tables</h1>
+	<h3>cell that spans two columns</h3>
+	<div class="colspan">
+		<table>
+			<tr>
+				<th>Name</th>
+				<th colspan="2">Telephone</th>
+			</tr>
+			<tr>
+				<td>Bill Gates</td>
+				<td>55577854</td>
+				<td>55577855</td>
+			</tr>
+		</table>
+	</div><br>
+
+	<h3>cell that spans two rows</h3>
+	<div class="rowspan">
+		<table>
+			<tr>
+				<th>Name</th>
+				<td>Bill Gates</td>
+			</tr>
+			<tr>
+				<th rowspan="2">Telephone</th>
+				<td>55577854</td>
+			</tr>
+			<tr>
+				<td>55577855</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
